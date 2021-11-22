@@ -1,4 +1,3 @@
-import logging
 from src.common.constants import uri, username, password
 from neo4j import GraphDatabase
 
