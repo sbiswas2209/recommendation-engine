@@ -6,4 +6,4 @@ router = APIRouter()
 async def root():
     return {"message":"API Route"}
 
-router.include_router(recommendRouter, prefix="/recommend", tags=["recommend"])
+router.include_router(recommendRouter, prefix="/recommend", tags=["Recommend"])
